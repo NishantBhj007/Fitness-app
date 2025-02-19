@@ -1,0 +1,14 @@
+export const exerciseOptions = {
+  method: "GET",
+
+  headers: {
+    "x-rapidapi-key": "a4ac509c53msh267c6760eedb9fep1de0a5jsn7f3dc515851b",
+    "x-rapidapi-host": "exercisedb.p.rapidapi.com",
+  },
+};
+
+export const fetchData = async (url, options) => {
+  const response = await fetch(url, options);
+  const data = response.json();
+  return data;
+};
