@@ -88,6 +88,7 @@ function SearchExercises({ setExercises, bodyPart, setBodyPart }) {
           data={bodyParts}
           setBodyParts={setBodyPart}
           bodyPart={bodyPart}
+          isBodyParts
         />
       </Box>
     </Stack>
